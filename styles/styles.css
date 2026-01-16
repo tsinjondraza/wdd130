@@ -1,6 +1,7 @@
 nav {
     background-color: darkblue;
     color: 10px;
+    padding: 0;
 }
 
 nav a {
@@ -40,11 +41,12 @@ aside {
 }
 
 aside img {
-    width: 14rem;
+    width: 200px;
     height: auto;
     border: 1px solid #opq;
     padding: 0 2px;
-    margin: 0 100px 0 30px;
+    margin: 0 40px 0 40px;
+    box-shadow: 0 30px / indigo;
 
 }
 
