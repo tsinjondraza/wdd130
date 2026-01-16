@@ -46,7 +46,7 @@ aside img {
     border: 1px solid #eee;
     padding: 0 2px;
     margin: 0 40px 0 40px;
-    box-shadow: indigo;
+    box-shadow: 5px 10px #888789;
 
 }
 
@@ -56,7 +56,7 @@ main img {
     border: 2px solid #fff;
     padding: 3px;
     margin: 0 50px 0 50px;
-    box-shadow: whitesmoke;
+    box-shadow: 5px 10px #888888;
 }
 
 footer {
