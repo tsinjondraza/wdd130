@@ -1,12 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: #fff;
+    --mini-coul: 5px 10px #888888;
+
+}
+
 nav {
     background-color: darkblue;
-    color: #fff;
-    padding: 0;
+    color: var(--text-color)
+        /*#fff; */
+        padding: 0;
 }
 
 /* This is a comment. Please tell the computer to ignore it */
 nav a {
-    color: white;
+    color: var(--text-color);
     display: block;
     padding: 20px;
 }
@@ -20,7 +33,7 @@ img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: var(--min-coul);
 }
 
 p {
@@ -31,13 +44,12 @@ main {
     max-width: 800px;
 }
 
+main p {
+    margin-left: 1em;
+}
+
 aside {
     width: 18rem;
-    margin: 10px 10px;
-    border: 0;
-    padding: 5px 10px;
-    background-color: rgb(0, 0, 255);
-    color: #fff;
     text-align: justify;
 }
 
@@ -47,10 +59,11 @@ aside img {
     border: 1px solid #eee;
     padding: 0 2px;
     margin: 0 40px 0 40px;
-    box-shadow: 5px 10px #888789;
+    box-shadow: var(--min-coul);
 }
 
 main img {
+    float: right;
     width: 170px;
     height: auto;
     border: 2px solid #fff;
@@ -63,4 +76,19 @@ footer {
     margin-top: 2em;
     border-top: 3px solid #eee;
     text-align: center;
+}
+
+/* Class selector */
+.box {
+    margin: 1rem;
+    border: 1px solid#eee;
+    padding: 1rem;
+    background-color: rgb(0, 255, 0);
+    color: red;
+}
+
+aside h2 {
+    position: relative;
+    top: 20px;
+    left: 20PX;
 }
