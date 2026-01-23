@@ -14,7 +14,7 @@
 }
 
 header {
-    backdround-color: var(--another-color);
+    background-color: var(--another-color);
     color: var(--second-preferred-color);
 
 }
