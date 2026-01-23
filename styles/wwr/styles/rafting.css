@@ -1,5 +1,5 @@
 :root {
-    --favorite-color: rgb(120, 255, 0);
+    --favorite-color: rgb(10, 255, 0);
     --second-preferred-color: yellow;
     --another-color: rgb(0, 0, 255);
     --exceptional-color: black;
@@ -57,10 +57,6 @@ article {
     position: absolute;
 }
 
-.hero article {
-    position: absolute;
-}
-
 .hero img {
     display: block;
     width: 100%;
@@ -73,26 +69,34 @@ h1 {
     width: 100%;
     padding: 16px;
     opacity: 0.6;
-    text-align: justify;
+    text-align: center;
     background-color: var(--favorite-color);
-    color: #fff;
+    color: var(--exceptional-color);
 }
 
-article {
+.hero article {
     position: absolute;
-    font: var(--body-font);
+    bottom: 5px;
+    width: 98%;
+    padding: 2px;
+    opacity: 0.8;
+    background-color: var(--second-preferred-color);
+    padding: 5px;
+    text-align: justify;
+
 }
 
 .hero article img {
+    padding: 5px;
     float: right;
     width: 125px;
 }
 
 h2 {
-    box-sizing: border-box;
-    background-color: var(--second-preferred-color);
+    background-color: var(--another-color);
     text-align: center;
     padding: 5px;
+    color: #fff;
 }
 
 p {
