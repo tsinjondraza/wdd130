@@ -13,10 +13,9 @@
     box-sizing: border-box;
 }
 
-header {
+/* header {
     color: var(--second-preferred-color);
-
-}
+} */
 
 body {
     font-family: var(--body-font);
