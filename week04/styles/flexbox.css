@@ -4,10 +4,13 @@ body {
 }
 
 .flex-container {
+    flex-direction: row-reverse;
     border: 3px dashed darkcyan;
-    background-color: lightyellow;
+    background-color: blue;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
 }
 
 .flex-item {

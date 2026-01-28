@@ -23,12 +23,20 @@ div {
 
 .flex {
     background-color: #aba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* write declarations here */
-
 }
 
 .grid {
     background-color: #abb;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: repeat (5, 1fr);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
     /* enter declarations here */
 
 }

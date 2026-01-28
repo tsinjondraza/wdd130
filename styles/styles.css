@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+header,
+.grid,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 :root {
     --text-color: #fff;
     --mini-coul: 5px 10px #888888;
@@ -12,9 +19,13 @@
 
 nav {
     background-color: darkblue;
-    color: var(--text-color)
-        /*#fff; */
-        padding: 0;
+    color: var(--text-color);
+    /*#fff; */
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
 }
 
 /* This is a comment. Please tell the computer to ignore it */
@@ -22,10 +33,14 @@ nav a {
     color: var(--text-color);
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 h1 {
     color: darkblue;
+    border-bottom: 5px;
 }
 
 img {
@@ -89,6 +104,22 @@ footer {
 
 aside h2 {
     position: relative;
-    top: 20px;
-    left: 20PX;
+    top: 30px;
+    left: 60px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr, 1fr;
+}
+
+main {
+    grid-column: 1/3;
+}
+
+aside {
+    position: relative;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 20 rem;
 }
