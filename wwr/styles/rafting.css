@@ -15,7 +15,32 @@
 
 header {
     color: var(--second-preferred-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    background-color: orange;
+}
 
+header img {
+    background-color: orange;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    flex: 1 1 auto;
+}
+
+.navigation a {
+    display: block;
+    text-decoration: none;
+    font-size: 1rem;
+    color: navy;
+    padding: 10px;
 }
 
 body {
@@ -82,7 +107,6 @@ h1 {
     background-color: var(--second-preferred-color);
     padding: 5px;
     text-align: justify;
-
 }
 
 .hero article img {
@@ -100,4 +124,44 @@ h2 {
 
 p {
     text-align: justify;
+}
+
+.histoire {
+    display: flex;
+}
+
+.histoire img {
+    margin: 5px 10px;
+}
+
+.album {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.album img {
+    display: block;
+    margin: 5px auto;
+    min-height: 125px;
+}
+
+.album figcaption {
+    display: block;
+    text-align: center;
+    font-size: medium;
+}
+
+footer {
+    background-color: greenyellow;
+    display: flex;
+}
+
+footer p {
+    text-align: center;
+    margin: 0 110px;
+}
+
+.socialmedia {
+    padding: 10px 40px;
+    text-align: right;
 }
