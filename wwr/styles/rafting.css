@@ -19,12 +19,12 @@ header {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
-    background-color: orange;
+    background-color: red;
 }
 
-header img {
-    background-color: orange;
-}
+/* header img {
+    background-color: red;
+} */
 
 .navigation {
     display: flex;
@@ -102,7 +102,6 @@ h1 {
     position: absolute;
     bottom: 5px;
     width: 98%;
-    padding: 2px;
     opacity: 0.8;
     background-color: var(--second-preferred-color);
     padding: 5px;
