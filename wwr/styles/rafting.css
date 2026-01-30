@@ -19,12 +19,8 @@ header {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
-    background-color: red;
+    background-color: var(--favorite-color);
 }
-
-/* header img {
-    background-color: red;
-} */
 
 .navigation {
     display: flex;
