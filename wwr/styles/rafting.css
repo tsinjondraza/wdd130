@@ -57,6 +57,11 @@ h2 {
     color: var(--another-color);
 }
 
+.company-detail p {
+    font-size: smaller;
+    align-content: center;
+}
+
 nav,
 p,
 section,
@@ -94,6 +99,85 @@ h1 {
     color: var(--exceptional-color);
 }
 
+.details {
+    display: block;
+    text-align: justify;
+    margin: 0;
+}
+
+.title {
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 2px;
+    margin-left: 120px;
+}
+
+.under-title {
+    display: block;
+    box-sizing: border-box;
+    font-size: small;
+    text-align: center;
+    max-width: 10rem;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.fillmap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-sizing: border-box;
+}
+
+iframe {
+    max-width: 350px;
+    max-height: 25rem;
+}
+
+form {
+    margin: 1rem;
+    border: 1px solid #000;
+    padding: 1rem;
+    background-color: #ddd;
+    color: #111;
+    margin-left: 0;
+}
+
+.question {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+/* This puts the question in the right way */
+label {
+    max-width: 10rem;
+    text-align: left;
+    padding: 2px;
+}
+
+/* This limits how much space the label take on the left side of the page */
+input {
+    width: 240px;
+    padding: 5px;
+    margin: 2px;
+}
+
+/*This styles the input to encourage the user to speak */
+/* .box {
+    margin: 1rem;
+    border: 1px solid #000;
+    padding: 1rem;
+} */
+
+options {
+    display: flex-start;
+}
+
+input:radio {
+    width: 1rem;
+    align-items: left;
+}
+
 .hero article {
     position: absolute;
     bottom: 5px;
@@ -116,6 +200,17 @@ h2 {
     padding: 5px;
     margin: 0;
     color: #fff;
+}
+
+button {
+    background-color: black;
+    color: whitesmoke;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: .75rem;
+    border: 1px solid rgb(0 0 0/10%);
+    font-size: larger;
 }
 
 p {
@@ -144,6 +239,23 @@ p {
 }
 
 .album figcaption {
+    display: block;
+    text-align: center;
+    font-size: medium;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.team img {
+    display: block;
+    margin: 5px auto;
+    min-height: 125px;
+}
+
+.team figcaption {
     display: block;
     text-align: center;
     font-size: medium;
