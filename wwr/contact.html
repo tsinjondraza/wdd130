@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WhiteWater Rafting Tsiadana contact</title>
+    <title>Contact Us WhiteWater Rafting Tsiadana</title>
     <meta name="description"
       content="The place to contact us, either for further explanations or to book your seat">
     <meta name="author" content="Emaneke A. Tsinjondraza Tranombiby">
@@ -24,12 +24,10 @@
         </nav>
     </header>
     <main>
+        <h1>WhiteWater Rafting Tsiadana</h1>
         <div class="details">
-            <div class="title">
-                <p>White Water Rafting Tsiadana</p>
-            </div>
             <div class="under-title">
-                <p>13 Route de l'UniversitéTsiadana Antananarivo +261300000000
+                <p>13 Route de l'Université Tsiadana Antananarivo +261300000000
                     tsiadana.rafting@wanadoo.mg</p>
             </div>
         </div>
@@ -37,24 +35,27 @@
         <section class="fillmap">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3774.312601224462!2d47.548219249999995!3d-18.9175526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2smg!4v1770396054666!5m2!1sfr!2smg"
-              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              width="600" height="450" " allowfullscreen="" loading=" lazy"
               referrerpolicy="no-referrer-when-downgrade">
             </iframe>
             <form class="box">
-                <div class="question box">
+                <div class="question">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" required>
                 </div>
-                <div class="question box">
+                <div class="question">
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email">
                 </div>
-                <div class="question box">
-                    <label for="motive">Message purpose</label>
+                <div class="question">
+                    <label>Message purpose</label>
                     <div class="options">
-                        <input type="radio"><label for="inquiry">General Inquiry</label>
-                        <input type="radio"><label for="reservation">Reservation Question</label>
-                        <input type="radio"><label for="suggestion">Website Suggestion</label>
+                        <label for="inquiry">General Inquiry</label>
+                        <input type="radio" id="inquiry" name="inquiry">
+                        <label for="reservation">Reservation Question</label>
+                        <input type="radio" id="reservation" name="reservation">
+                        <label for="suggestion">Website Suggestion</label>
+                        <input type="radio" id="suggestion" name="suggestion">
                     </div>
                 </div>
                 <div class="response">
@@ -62,8 +63,8 @@
                     <textarea id="message" name="message" rows="6" cols="50"></textarea>
                 </div>
                 <div class="check">
-                    <input type="checkbox">
                     <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="subscribe" name="subscribe">
                 </div>
                 <button type="submit">Get in touch</button>
             </form>
@@ -87,6 +88,7 @@
 
             </div>
         </section>
+
     </main>
     <footer>
         <p>© 2026 WhiteWater Rafting Tsiadana, Tsinjondraza</p>
