@@ -87,6 +87,38 @@ article {
     height: auto;
 }
 
+.hero article {
+    position: absolute;
+    bottom: 5px;
+    width: 98%;
+    opacity: 0.8;
+    background-color: var(--second-preferred-color);
+    padding: 5px;
+    text-align: justify;
+}
+
+.hero article img {
+    padding: 5px;
+    float: right;
+    width: 125px;
+}
+
+.nero {
+    position: relative;
+}
+
+.nero h1 {
+    position: absolute;
+    color: #fff;
+    width: 100%;
+}
+
+.nero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 h1 {
     /* position: absolute; */
     top: 20px;
@@ -110,6 +142,75 @@ h1 {
     text-align: justify;
     margin: 0;
 }
+
+.comfort {
+    position: relative;
+}
+
+.comfort img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.comfort h1 {
+    position: absolute;
+    top: 1px;
+    color: rgb(100 255 50);
+}
+
+.comfort article {
+    position: absolute;
+    bottom: 5px;
+    left: 2px;
+    width: 99%;
+}
+
+.exquisite {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+/* #fisher {
+    grid-column-start: 3;
+    width: 350px;
+} */
+
+.exquisite p {
+    margin-top: 5px;
+    padding: 7px;
+    color: #fff;
+    background-color: skyblue;
+    text-align: justify;
+}
+
+.prompt {
+    padding: 4px;
+}
+
+.add {
+    padding: 5px;
+}
+
+.add checkbox {
+    justify-content: baseline;
+}
+
+/* .description {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+} */
+
+.comfort article img {
+    height: 195px;
+    width: 200px;
+    justify-content: baseline;
+}
+
+/* .description img {
+    height: 200px;
+    width: 350px;
+} */
 
 /* .title {
     font-family: 'Courier New', Courier, monospace;
@@ -148,13 +249,21 @@ form {
     margin-left: 0;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .question {
     display: grid;
     grid-template-columns: 1fr 3fr;
     margin-top: 5px;
     align-items: center;
-
 }
+
+/* .submit {
+    width= 400px;
+} */
 
 input {
     padding: 5px;
@@ -171,7 +280,6 @@ input {
     display: grid;
     grid-template-columns: 1fr 10fr;
     padding: 5px;
-
 }
 
 textarea {
@@ -194,22 +302,6 @@ button {
     width: 100%;
 }
 
-.hero article {
-    position: absolute;
-    bottom: 5px;
-    width: 98%;
-    opacity: 0.8;
-    background-color: var(--second-preferred-color);
-    padding: 5px;
-    text-align: justify;
-}
-
-.hero article img {
-    padding: 5px;
-    float: right;
-    width: 125px;
-}
-
 h2 {
     background-color: var(--another-color);
     text-align: center;
@@ -218,9 +310,70 @@ h2 {
     color: #fff;
 }
 
+.fill {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    text-align: center;
+}
+
+.fill label {
+    padding: 20px;
+    margin-right: 5px;
+}
+
+.fill input {
+    margin: 2px 5px;
+}
+
 /* p {
     text-align: justify;
 } */
+.submit a {
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.explore-more {
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.plus {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.more-adventure {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 5px;
+    justify-content: center;
+    margin: 5px;
+}
+
+.more-adventure img {
+    width: 150px;
+    height: 210px;
+    margin: 7px;
+}
+
+.more-pleasure {
+    margin: 5px;
+}
+
+.more-pleasure img {
+    float: right;
+    width: 105px;
+    height: 105px;
+    padding: 5px;
+}
 
 .histoire {
     display: flex;
@@ -273,7 +426,7 @@ footer {
 
 footer p {
     text-align: center;
-    margin: 0 110px;
+    margin: 20px 110px;
 }
 
 .socialmedia {
