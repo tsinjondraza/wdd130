@@ -156,7 +156,7 @@ h1 {
 .comfort h1 {
     position: absolute;
     top: 1px;
-    color: rgb(100 255 50);
+    color: rgb(255, 255, 255);
 }
 
 .comfort article {
@@ -196,28 +196,57 @@ h1 {
     justify-content: baseline;
 }
 
-/* .description {
+.optus {
+    padding: 3px;
+    width: 150px;
+}
+
+.pick {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-} */
+    grid-template-columns: 5fr 4fr;
+    width: 70%;
+    margin-top: 5px;
+}
+
+.pick select {
+    width: 250px;
+}
+
+.pick label {
+    padding: 2px;
+
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    width: 70%;
+}
+
+.info label {
+    margin-top: 5px;
+    margin-left: 5px;
+    justify-items: center;
+    align-items: center;
+}
+
+.info input {
+    padding: 5px;
+}
+
+.exquisite figcaption {
+    color: #fff;
+    background-color: green;
+    font-size: xx-small;
+    text-align: center;
+    padding: 1px;
+}
 
 .comfort article img {
-    height: 195px;
+    height: 185px;
     width: 200px;
     justify-content: baseline;
 }
-
-/* .description img {
-    height: 200px;
-    width: 350px;
-} */
-
-/* .title {
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    padding: 2px;
-    margin-left: 120px;
-} */
 
 .under-title {
     display: block;
@@ -336,13 +365,20 @@ h2 {
 }
 
 .explore-more {
+    box-sizing: border-box;
     display: block;
-    background-color: black;
-    color: white;
-    text-decoration: none;
+    background-color: green;
     padding: 5px;
     text-align: center;
-    width: 100%;
+    width: 97%;
+    border-radius: .75rem;
+    font-size: x-large;
+}
+
+.explore-more li a {
+    text-decoration: none;
+    color: white;
+
 }
 
 .plus {
